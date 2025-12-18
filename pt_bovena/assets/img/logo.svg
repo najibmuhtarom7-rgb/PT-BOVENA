@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="44" viewBox="0 0 160 44" fill="none">
+  <rect width="160" height="44" rx="8" fill="#ffffff" />
+  <g transform="translate(8,6)">
+    <circle cx="18" cy="16" r="14" fill="#3b6b3b" />
+    <path d="M10 17c1-3 6-5 12-3" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="44" y="22" font-family="Poppins, sans-serif" font-weight="700" font-size="16" fill="#2f5a2f">PT Bovena</text>
+  </g>
+</svg>

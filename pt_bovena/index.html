@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>PT Bovena — Peternakan & Agribisnis</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="#home">
+        <img src="assets/img/logo.svg" alt="PT Bovena logo" />
+      </a>
+      <nav class="nav" id="nav" role="navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang</a>
+        <div class="nav-item dropdown">
+          <button class="dropdown-toggle" aria-expanded="false">Layanan ▾</button>
+          <div class="dropdown-menu">
+            <a href="#products" data-sub="all">Semua Layanan</a>
+            <a href="#products" data-sub="pembibitan">Pembibitan Unggul</a>
+            <a href="#products" data-sub="pakan">Pakan & Nutrisi</a>
+            <a href="#products" data-sub="kesehatan">Manajemen Kesehatan</a>
+            <a href="#products" data-sub="logistik">Distribusi & Logistik</a>
+          </div>
+        </div>
+        <a href="#sustainability">Keberlanjutan</a>
+        <a href="#contact">Kontak</a>
+      </nav>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Buka navigasi">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>PT Bovena — Innovasi Peternakan Indonesia</h1>
+          <p>Menyediakan solusi peternakan terintegrasi: pembibitan, pakan, manajemen ternak, dan distribusi. Keberlanjutan dan kualitas di setiap tahap produksi.</p>
+          <p><a class="btn" href="#contact">Hubungi Kami</a></p>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/img/farm.svg" alt="Ilustrasi peternakan" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2>Tentang Kami</h2>
+        <p>PT Bovena adalah perusahaan peternakan yang fokus pada praktik modern dan ramah lingkungan. Dengan pengalaman bertahun-tahun, kami melayani peternak dan pasar nasional dengan standar mutu tinggi.</p>
+        <div class="about-grid">
+          <div class="card">
+            <h3>Visi</h3>
+            <p>Menjadi pemimpin agribisnis yang berkelanjutan dan berkontribusi pada ketahanan pangan nasional.</p>
+          </div>
+          <div class="card">
+            <h3>Misi</h3>
+            <p>Meningkatkan produktivitas peternakan melalui teknologi, pelatihan, dan supply chain yang transparan.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="section products">
+      <div class="container">
+        <h2>Produk Unggulan Kami</h2>
+        <p>Kami memproduksi produk hewani berkualitas tinggi dengan proses terkontrol: sosis, daging segar, susu, dan nugget. Berikut sorotan produk kami.</p>
+
+        <div class="products-grid featured">
+          <div class="product-list">
+          <article class="product-card" id="product-sosis" data-product="sosis">
+            <div class="product-img"><img src="assets/img/sosis.svg" alt="Sosis PT Bovena"/></div>
+            <h3>Sosis Premium</h3>
+            <p>Kombinasi daging berkualitas dan rempah pilihan, diproduksi dengan standar kebersihan tinggi.</p>
+            <p><a class="btn" href="#contact">Pesan Sampel</a></p>
+            <div class="detail-source" hidden>
+              <p class="lead">Sosis Premium PT Bovena dibuat dari daging pilihan dan formula rempah seimbang. Diproses secara higienis dan dikemas untuk menjaga kesegaran.</p>
+              <h4>Spesifikasi</h4>
+              <ul>
+                <li>Varian: original, smoky, spicy</li>
+                <li>Berat kemasan: 200g / 500g</li>
+                <li>Shelf life: 30 hari (chilled)</li>
+              </ul>
+              <p>Ideal untuk ritel modern, katering, dan restoran. Kami menyediakan dukungan sampling dan pengiriman skala besar.</p>
+            </div>
+          </article>
+
+          <article class="product-card" id="product-daging" data-product="daging">
+            <div class="product-img"><img src="assets/img/daging.svg" alt="Daging Berkualitas"/></div>
+            <h3>Daging Berkualitas</h3>
+            <p>Potongan daging segar dari ternak terawat, cocok untuk pasar ritel maupun industri kuliner.</p>
+            <p><a class="btn" href="#contact">Permintaan Penawaran</a></p>
+            <div class="detail-source" hidden>
+              <p class="lead">Sumber daging kami berasal dari ternak yang dipelihara dengan standar kesejahteraan hewan tinggi, pakan terkontrol, dan diproses di fasilitas terverifikasi.</p>
+              <h4>Spesifikasi</h4>
+              <ul>
+                <li>Cutting: sirloin, ribeye, chuck, brisket</li>
+                <li>Grade: choice / premium</li>
+                <li>Pengemasan: vacuum seal untuk pasar ekspor</li>
+              </ul>
+              <p>Kami melayani permintaan potongan khusus dan pengiriman untuk kebutuhan restoran dan industri makanan.</p>
+            </div>
+          </article>
+
+          <article class="product-card" id="product-susu" data-product="susu">
+            <div class="product-img"><img src="assets/img/susu.svg" alt="Susu Segar"/></div>
+            <h3>Susu Segar & Olahan</h3>
+            <p>Sumber susu berkualitas yang dipantau dari peternak mitra, tersedia dalam berbagai varian olahan.</p>
+            <p><a class="btn" href="#contact">Tanyakan Distributor</a></p>
+            <div class="detail-source" hidden>
+              <p class="lead">Susu kami dipantau ketat mulai dari peternak hingga pengolahan. Tersedia susu segar, pasteurisasi, dan produk turunannya.</p>
+              <h4>Spesifikasi</h4>
+              <ul>
+                <li>Varian: segar, UHT, yoghurt</li>
+                <li>Kemasan: botol 1L, karton 250ml</li>
+                <li>Sertifikasi: standar keamanan pangan nasional</li>
+              </ul>
+              <p>Hubungi tim distribusi kami untuk detail ketersediaan dan harga di wilayah Anda.</p>
+            </div>
+          </article>
+
+          <article class="product-card" id="product-nugget" data-product="nugget">
+            <div class="product-img"><img src="assets/img/nugget.svg" alt="Nugget PT Bovena"/></div>
+            <h3>Nugget Siap Olah</h3>
+            <p>Produk siap goreng, dibuat dari daging pilihan dan proses yang higienis untuk pasar ritel.</p>
+            <p><a class="btn" href="#contact">Order Grosir</a></p>
+            <div class="detail-source" hidden>
+              <p class="lead">Nugget PT Bovena dibuat dengan formula tekstur renyah dan rasa gurih, menggunakan daging pilihan dan bahan tambahan minimal.</p>
+              <h4>Spesifikasi</h4>
+              <ul>
+                <li>Berat kemasan: 500g / 1kg</li>
+                <li>Proses: beku cepat untuk kualitas maksimal</li>
+                <li>Label: bergizi, bebas bahan pengawet berlebih</li>
+              </ul>
+              <p>Tersedia juga opsi private label untuk mitra ritel besar.</p>
+            </div>
+          </article>
+          </div>
+
+          <div class="product-detail" id="product-detail">
+            <h3>Detail Produk & Keunggulan</h3>
+            <p class="lead">Pilih produk di daftar untuk melihat spesifikasi lengkap, varian, dan opsi pemesanan. Kami menjaga kualitas mulai dari kandang, pakan, hingga proses pemotongan dan pengemasan.</p>
+            <ul>
+              <li>Pelacakan sumber bahan baku</li>
+              <li>Sertifikat kebersihan dan keamanan pangan</li>
+              <li>Packing ramah distribusi dan pengiriman</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sustainability" class="section sustainability">
+      <div class="container">
+        <h2>Keberlanjutan</h2>
+        <p>Kami mengimplementasikan praktik ramah lingkungan: pengelolaan limbah, penggunaan energi efisien, dan program daur ulang pakan sisa.</p>
+        <div class="sustain-grid">
+          <div class="stat">
+            <strong>30%</strong>
+            <span>Pengurangan limbah organik (target)</span>
+          </div>
+          <div class="stat">
+            <strong>100+</strong>
+            <span>Peternak bermitra</span>
+          </div>
+          <div class="stat">
+            <strong>ISO 22000</strong>
+            <span>Sertifikasi mutu & keamanan pangan</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2>Kontak</h2>
+        <div class="contact-grid">
+          <form class="contact-form" action="#" onsubmit="return false;">
+            <label>Nama</label>
+            <input type="text" placeholder="Nama lengkap" />
+            <label>Email</label>
+            <input type="email" placeholder="email@contoh.com" />
+            <label>Pesan</label>
+            <textarea placeholder="Tulis pesan Anda"></textarea>
+            <button class="btn" type="submit">Kirim</button>
+          </form>
+          <div class="contact-info">
+            <p><strong>PT Bovena</strong></p>
+            <p>Jl. Contoh No. 123, Kabupaten, Provinsi</p>
+            <p>Email: info@bovena.co.id</p>
+            <p>Telp: (021) 1234 5678</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> PT Bovena. Semua hak cipta dilindungi.</p>
+      <nav class="footer-nav">
+        <a href="#privacy">Kebijakan Privasi</a>
+        <a href="#terms">Syarat & Ketentuan</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
